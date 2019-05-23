@@ -37,6 +37,7 @@
 
 <script>
     import './scss/header.css'
+
     export default {
         props: ['userInfo', 'srcLogo', 'activeMenu', 'tenantId'],
         data () {
