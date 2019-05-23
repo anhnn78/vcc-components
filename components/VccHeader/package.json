@@ -3,5 +3,6 @@
   "version": "0.1.0",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "0452846141c4abb5474e0c2cc1bd423b931c7415"
 }
