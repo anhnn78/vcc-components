@@ -1,8 +1,8 @@
 {
-  "name": "@vcc-components/vcc-header",
+  "name": "@vccloud-frontend/vcc-header",
   "version": "0.3.0",
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "0452846141c4abb5474e0c2cc1bd423b931c7415"
+  "gitHead": "0e1b2606719e0f6ed9af198b274f6dff7c643eda"
 }
