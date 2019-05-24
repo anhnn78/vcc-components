@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/vue'
-import VccHeader from './VccHeader'
+import VccHeader from './index'
 
 storiesOf('VccHeader', module)
     .add('normal', () => ({

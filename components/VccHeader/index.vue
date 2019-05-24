@@ -179,7 +179,7 @@
 
 <script>
 //   import axios from 'axios'
-  import './scss/header.scss'
+  import './scss/header.css'
 //   const service = axios.create({
 //     withCredentials: true
 //   })
