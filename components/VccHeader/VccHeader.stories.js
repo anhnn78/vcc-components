@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/vue'
-import VccHeader from './index'
+import VccHeader from './src/index'
 
 storiesOf('VccHeader', module)
     .add('normal', () => ({
@@ -8,17 +8,13 @@ storiesOf('VccHeader', module)
             `
               <VccHeader
                 :userInfo="user"
-                :srcLogo="linkLogo"
-                activeMenu="mail-inbox"
-                :tenantId="user.tenant_id"
               />
             `,
         data: () => ({
             user: {
                 fullname: 'Ngô Anh',
                 email: 'admin@admin.com',
-                phone: '0345062976',
-                tenant_id: '1jhasgdkd123g12i3'
+                phone: '0345062976'
             }
         })
     }))
